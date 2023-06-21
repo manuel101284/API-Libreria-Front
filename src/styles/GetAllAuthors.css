@@ -1,0 +1,63 @@
+.getAllAuthors{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.getAllAuthors1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #d6dbdf ;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.dataAuthor{
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    background-color: #d6dbdf;
+    color: #000000;
+}
+.dataAuthor p{
+    color: darkgreen;
+}
+.buttonGetAllAuthors{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color:  #58d68d ;
+    border-radius: 20px;
+    color: black;
+}

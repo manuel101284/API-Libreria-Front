@@ -1,0 +1,21 @@
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: 600;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.imgHome-01{
+    width: 30%;
+    height: 30%;
+    border: 2px solid #9cc9f7;
+    border-radius: 20px;
+}

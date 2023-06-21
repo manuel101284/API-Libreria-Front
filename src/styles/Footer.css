@@ -1,0 +1,34 @@
+.FooterApi{
+    background-color: #515a5a;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 0;
+    top: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding: 0%;
+}
+.FooterInfo{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content:0 center;
+    justify-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+p .info{
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+a{
+    color: #FFFFFF;
+}

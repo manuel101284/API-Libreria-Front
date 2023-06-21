@@ -1,0 +1,51 @@
+.NavBarApi{
+    background-color: #515a5a;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+.OptionHome{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.OptionAuthors{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.OptionBooks{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+a{
+    color: #FFFFFF;
+}
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+    margin-left: auto;
+}
+button{
+    background-color:    #a93226;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    border: 2px solid ;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 8%;
+    font-weight: 600;
+}

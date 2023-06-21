@@ -1,0 +1,56 @@
+.CardBook{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.titleBook{
+    width: 120px;
+    height: 60px;
+    background-color: #fff59d;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titleBook-1{
+    font-weight: 600;
+    color:  #17202a;
+}
+.MenuBook{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff59d;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.buttonBookAPI{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #2e7d32;
+    color: #FFFFFF;
+    border: 1px solid #17202a ;
+    border-radius: 20px;
+    padding: 10px;
+}

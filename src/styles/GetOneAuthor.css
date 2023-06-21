@@ -1,0 +1,45 @@
+.getOneAuthor{
+        display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.getOneAuthor1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #d6dbdf ;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p .titleGetOneAuthor{
+    color:darkgreen
+}
+.inputGetOneAuthor{
+    background-color:  #242527;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.buttonGetOneAuthor{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:  #58d68d ;
+    border-radius: 20px;
+    color: black;
+}
