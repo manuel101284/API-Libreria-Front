@@ -1,15 +1,30 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styles/GetOneAuthor.css'
-
 import CardAuthor from './CardAuthor'
 
-const GetOneAuthor = () => {
 
-    const [selectAuthor, setSelectAuthor] = useState("")
+const GetOneAuthor = () => {
+    const [inputValue, setInputValue] = useState('');
+    const [debouncedAuthor, setDebouncedAuthor] = useState('');
 
     const handleAuthor = (event) => {
-        setSelectAuthor(event.target.value)
-    }
+        const newValue = event.target.value;
+        setInputValue(newValue);
+    };
+
+    useEffect(() => {
+        const delay = setTimeout(() => {
+            if (inputValue.trim() !== '') {
+                setDebouncedAuthor(inputValue);
+            } else {
+                setDebouncedAuthor('');
+            }
+        }, 500);
+
+        return () => {
+            clearTimeout(delay);
+        };
+    }, [inputValue]);
 
     return (
         <div className='getOneAuthor'>
@@ -20,15 +35,16 @@ const GetOneAuthor = () => {
                     name='nameAuthor'
                     className='inputGetOneAuthor'
                     placeholder='Nombre Autor'
-                    value={selectAuthor}
+                    value={inputValue}
                     onChange={handleAuthor}
                 // onChange={(event) => setAuthor(event.target.value)}
                 >
                 </input>
                 {/* <button className='buttonGetOneAuthor' onClick={handleAuthor}>CONSULTAR</button> */}
 
-                <CardAuthor nameAuthor={selectAuthor} />
-
+                {debouncedAuthor !== '' ? (
+                    <CardAuthor nameAuthor={debouncedAuthor} />
+                ) : null}
             </div>
         </div>
     )
